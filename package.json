@@ -1,22 +1,23 @@
-> npm init --yes
-Wrote to /home/monatheoctocat/my_package/package.json:
-
 {
-  "name": "my_package",
-  "description": "make your package easier to find on the npm website",
+  "name": "my-awesome-package",
   "version": "1.0.0",
+  "description": "A simple Node.js app using Express",
+  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "test": "mocha"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/monatheoctocat/my_package.git"
+  "keywords": [
+    "node",
+    "express",
+    "sample"
+  ],
+  "author": "Siri <siru0418@gmail.com> (https://example.com)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.13.3"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/monatheoctocat/my_package/issues"
-  },
-  "homepage": "https://github.com/monatheoctocat/my_package"
+  "devDependencies": {
+    "mocha": "^5.0.0"
+  }
 }
