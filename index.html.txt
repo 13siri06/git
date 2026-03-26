@@ -122,8 +122,8 @@
 </header>
 
 <div class="content">
-    <p>This is a simple website deployed using Jenkins </p>
-  <p>WebHook trigger applied</p>
+    <p>This is a simple website deployed using WEBHOOK </p>
+ 
 
     <img src="https://picsum.photos/seed/picsum/600/400" alt="Sample Image"></div>
 
